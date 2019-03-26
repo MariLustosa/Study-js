@@ -20,12 +20,25 @@
 // console.log(order);
 
 
-var girls = ["Ana","Gabi","Bia","Mari"];
-var boys = ["João","Leo", "Caio","Jonas"];
-var teacher = ["clarice","thais", "anderson","alan"];
+var girls = ["Ana", "Gabi", "Bia", "Mari"];
+var boys = ["João", "Leo", "Caio", "Jonas"];
+var teacher = ["clarice", "thais", "anderson", "alan"];
 
-// var people = girls.concat(boys); (concatenar 2 arrays)
+var people = girls.concat(boys);
 // console.log(people);
 
-var everyone = girls.concat (boys, teacher);
-console.log(everyone);
+// var everyone = girls.concat (boys, teacher);
+// console.log(everyone); 
+
+
+// document.getElementById("demo") (chamar o id do index)
+document.querySelector("#demo").innerHTML = people;
+
+// people.sort(); (organizar em ordem crescente)
+for (let index = 0; index < array.length; index++) {
+    if (condition) {
+
+    } else {
+
+    }
+}
